@@ -17,12 +17,12 @@ app.get("/", (req, res, next) => {
     res.sendFile(__dirname + "/views/home.html");
 });
 app.get("/about", (req, res, next) => {
-    console.log("we have received a request for the HOMEPAGE");
+    console.log("we have received a request for the ABOUT");
 
     res.sendFile(__dirname + "/views/about.html");
 });
 app.get("/works", (req, res, next) => {
-    console.log("we have received a request for the HOMEPAGE");
+    console.log("we have received a request for the WORKS");
 
     res.sendFile(__dirname + "/views/works.html");
 });
